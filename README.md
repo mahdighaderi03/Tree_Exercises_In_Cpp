@@ -5,7 +5,7 @@ In this repository, I wrote some important codes of the tree in C++.
 ## binary_tree:
 This C++ program implements various operations on a binary tree. The program defines a `node` class representing a binary tree node and provides functionalities such as creating a new node, calculating the height of the tree, counting leaves and nodes, deleting the entire tree, finding the maximum value, and performing three types of tree traversals (preorder, inorder, and postorder).
 
-## How to Use
+### How to Use
 1. **Create a New Node:**
    - Choose option 1.
    - Enter the data for the new node.
@@ -45,7 +45,7 @@ This C++ program implements various operations on a binary tree. The program def
 0. **Exit:**
    - Choose option 0 to exit the program.
 
-## Notes
+### Notes
 - The program uses a class named `node` to define the structure of each node in the binary tree.
 - The main function allows users to interactively perform operations on the binary tree.
 - The program supports dynamic memory allocation and handles the deletion of the entire tree to prevent memory leaks.
@@ -54,7 +54,7 @@ This C++ program implements various operations on a binary tree. The program def
 ## AVL_tree:
 This C++ program implements an AVL tree, a self-balancing binary search tree. The AVL tree ensures that the tree remains balanced, minimizing the height difference between the left and right subtrees for each node.
 
-## Features
+### Features
 - **Insertion:**
   - Option 1 allows you to insert an item into the AVL tree.
   - The tree automatically performs rotations to maintain balance.
@@ -69,7 +69,7 @@ This C++ program implements an AVL tree, a self-balancing binary search tree. Th
 - **Exit:**
   - Option 0 exits the program.
 
-## How to Use
+### How to Use
 1. **Insert Item:**
    - Choose option 1.
    - Enter the item you want to insert into the AVL tree.
@@ -94,7 +94,7 @@ This C++ program implements an AVL tree, a self-balancing binary search tree. Th
 
 - The `insert` and `remove` methods ensure that the AVL tree remains balanced by performing rotations as needed.
 
-## Notes
+### Notes
 - This program provides a basic interface for interacting with the AVL tree through the command line.
 - Users can insert items, visualize the tree, and remove nodes while the AVL tree automatically maintains balance.
 
@@ -102,7 +102,7 @@ This C++ program implements an AVL tree, a self-balancing binary search tree. Th
 ## BST_tree:
 This C++ program implements basic operations on a binary search tree (BST). The program defines a `node` class representing a node in the tree and provides functionalities such as insertion, deletion, searching, and three different tree traversals (inorder, postorder, and preorder).
 
-## Features
+### Features
 - **Insertion:**
   - Option 1 allows you to insert an item into the BST.
 
@@ -118,7 +118,7 @@ This C++ program implements basic operations on a binary search tree (BST). The 
 - **Exit:**
   - Option 0 exits the program.
 
-## How to Use
+### How to Use
 1. **Insert Item:**
    - Choose option 1.
    - Enter the item you want to insert into the BST.
@@ -147,7 +147,7 @@ This C++ program implements basic operations on a binary search tree (BST). The 
 7. **Exit:**
    - Choose option 0 to exit the program.
 
-## BST Operations
+### BST Operations
 - The `node` class includes methods for creating a new node, inserting a node into the BST, searching for a node, and performing three types of tree traversals.
 
 - The `insert` method inserts a node into the BST while maintaining its binary search tree properties.
